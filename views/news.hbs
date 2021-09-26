@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headers}}
+</head>
+
+<body>
+    <div class="container-fluid main_menu">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+
+
+            <nav class="navbar navbar-expand-lg ">
+
+                 {{!-- <a class="navbar-brand" href="/"> Get The News </a> --}}
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                
+
+                <!-- Default dropdown button -->
+                <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <button class ='news_cat'>Top Headlines</button>
+                    <button class ='news_cat'>Business</button>
+                    <button class ='news_cat'>Entertainment</button>
+                    <button class ='news_cat'>General</button>
+                    <button class ='news_cat'>Health</button>
+                    <button class ='news_cat'>Science</button>
+                    <button class ='news_cat'>Sports</button>
+                    <button class ='news_cat'>Technology</button>
+                    
+                </div>
+                </div>
+
+                 <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Countries
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <button class ='country_cat'>India</button>
+                    <button class ='country_cat'>USA</button>
+                    <button class ='country_cat'>Great Britain</button>
+                    <button class ='country_cat'>Australia</button>
+                    <button class ='country_cat'>Canada</button>
+                    
+                    
+                </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/news">News</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="https://harshitraj-portfolio.herokuapp.com/" target="_blank">About Me</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact Me</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+    <!-- main header  -->
+     <div class="main_header2">
+
+        <div class="row2">
+            <div class="col-md-10 col-12 mx-auto">
+
+                <div class="container-fluid  main_content">
+
+
+                    <div class="tempInformation" id ="main_box">
+                        <div class="top_layer">
+                            <p id="country">India</p>
+                            <button id ='get_news'>Get News</button>
+                            <p id="category">Top Headlines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+    <section id="projects" class="services">
+    <div class="container">
+
+        
+
+        <div class="row" id='rows'>
+            
+        </div>
+
+    </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <p>
+            Designed & Developed By Harshit Raj
+        </p>
+    </footer>
+    <script src="js/navigation.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
