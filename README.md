@@ -40,6 +40,9 @@ A Full Stack Web Application for getting the `Current News` across different cou
 **DataBase:** MongoDB Atlas
   
 **API:** News API
+
+**Deployed On:** Heroku APP
+
 ## Demo
 
 Link to Access Web Application
